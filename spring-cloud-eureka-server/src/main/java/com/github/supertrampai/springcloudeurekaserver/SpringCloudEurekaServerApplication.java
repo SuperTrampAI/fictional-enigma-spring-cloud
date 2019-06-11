@@ -1,13 +1,13 @@
-package com.github.supertrampai.demo_server;
+package com.github.supertrampai.springcloudeurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoServerApplication {
+public class SpringCloudEurekaServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoServerApplication.class, args);
+        SpringApplication.run(SpringCloudEurekaServerApplication.class, args);
     }
 
 }
